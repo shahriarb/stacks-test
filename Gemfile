@@ -3,11 +3,6 @@ source 'http://rubygems.org'
 gem 'rails', '3.0.3'
 gem 'unicorn'
 
-group :production do 	
-	gem 'memcache-client'
-	gem 'resque'
-end
-
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
