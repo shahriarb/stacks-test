@@ -1,3 +1,5 @@
+require 'sockets'
+
 class TestController < ApplicationController
 
 	def index
