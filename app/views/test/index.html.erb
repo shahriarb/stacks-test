@@ -1,11 +1,4 @@
-Branch: unicorn<br/>
-Env Var Branch: <%= ENV['STACK_GIT_BRANCH'] %><br/>
+Branch: <%= ENV['STACK_GIT_BRANCH'] %><br/>
 <br/>
+<%= ENV['EXAMPLE'] %>
 
-Environment varables: 
-
-<% @values.each do |v| %>
-	<p><%= v %></p>
-<% end %>
-
-changing 
