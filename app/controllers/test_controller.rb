@@ -1,4 +1,4 @@
-require 'sockets'
+require 'socket'
 
 class TestController < ApplicationController
 
