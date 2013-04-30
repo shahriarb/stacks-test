@@ -14,6 +14,7 @@ Stacks::Application.routes.draw do
   #   resources :products
 
   match 'test', :to => 'test#index', :via => :get
+  match '/', :to => 'test#index', :via => :get
   
   # Sample resource route with options:
   #   resources :products do
