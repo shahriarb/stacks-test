@@ -97,5 +97,6 @@ PLATFORMS
 DEPENDENCIES
   memcache-client
   rails (= 3.0.3)
+  redis
   resque
   unicorn
