@@ -6,6 +6,7 @@ gem 'unicorn'
 group :production do 	
 	gem 'memcache-client'
 	gem 'resque'
+	gem 'redis'
 end
 
 # Bundle edge Rails instead:

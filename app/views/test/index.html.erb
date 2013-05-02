@@ -2,5 +2,8 @@ Branch: <%= ENV['STACK_GIT_BRANCH'] %><br/>
 <br/>
 <%= ENV['EXAMPLE'] %>
 
-Hostname = <%= @hostname %>
+Hostname = <%= @hostname %><br/>
+<% if Rails.env.production? %>
+Redis = <% $redis.get("test_key") %>
+<% end %>
 
