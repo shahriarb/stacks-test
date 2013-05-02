@@ -1,1 +1,1 @@
-$redis = Redis.new(:host => Rails.configuration.redis_server, :port => 6379) if Rails.env.production?
+$redis = Redis.new(:host => ENV['REDIS_ADDRESS'], :port => 6379) if Rails.env.production?
