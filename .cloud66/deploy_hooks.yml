@@ -1,5 +1,5 @@
 production:
-  last_thing:
+  first_thing:
     - source: /.cloud66/files/sample_script.sh
       destination: ~/sample_script.sh
       target: rails
