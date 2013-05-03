@@ -1,0 +1,7 @@
+production:
+  last_thing:
+    - source: /.cloud66/files/sample_script.sh
+      destination: ~/sample_script.sh
+      target: rails
+      execute: true
+      run_on: all_servers
