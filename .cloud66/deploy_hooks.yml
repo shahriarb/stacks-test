@@ -5,3 +5,4 @@ production:
       target: rails
       execute: true
       run_on: all_servers
+      apply_during: build_only
