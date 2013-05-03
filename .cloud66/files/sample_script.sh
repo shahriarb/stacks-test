@@ -1,3 +1,3 @@
 #!/bin/bash
 ls -ltr > /dev/null 
-blah
+blah > /dev/null 2>&1
