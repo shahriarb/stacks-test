@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 gem 'unicorn'
-gem 'whenever'
+gem 'whenever', :require => false
 
 group :production do 	
 	gem 'memcache-client'
