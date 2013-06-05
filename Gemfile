@@ -9,6 +9,10 @@ group :production do
 	gem 'redis'
 end
 
+group :test do 
+	gem 'capybara'
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
