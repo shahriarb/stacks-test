@@ -2,15 +2,12 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 gem 'unicorn'
+gem 'whenever'
 
 group :production do 	
 	gem 'memcache-client'
 	gem 'resque'
 	gem 'redis'
-end
-
-group :test do 
-	gem 'capybara'
 end
 
 # Bundle edge Rails instead:
