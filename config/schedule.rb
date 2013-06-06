@@ -7,11 +7,11 @@
 #
 set :output, "/tmp/cron_log.log"
 
-every 1.hours do
+every 1.minutes do
   command "ls"
 end
 
-every 1.hours do
+every 2.minutes do
   rake "test:one_off"
 end
 
