@@ -8,12 +8,12 @@ env 'PATH', ENV['PATH']
 #
 set :output, "/tmp/cron_log.log"
 
-every 1.minutes do
-  command "ls"
+every 2.minutes, :roles => [:app] do
+  rake "test:one_off"
 end
 
-every 2.minutes do
-  rake "test:one_off"
+every 2.minutes, :roles => [:redis] do
+  command "ls -ltr /"
 end
 
 # Learn more: http://github.com/javan/whenever
