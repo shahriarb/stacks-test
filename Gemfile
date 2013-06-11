@@ -2,12 +2,12 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 gem 'unicorn'
-gem 'whenever', :require => false
+#gem 'whenever', :require => false
 
 group :production do 	
 	gem 'memcache-client'
 	gem 'resque'
-	gem 'redis'
+	gem 'redis'	
 end
 
 # Bundle edge Rails instead:
