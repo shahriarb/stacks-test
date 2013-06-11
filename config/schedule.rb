@@ -12,7 +12,7 @@ every 2.minutes, :roles => [:app] do
   rake "test:one_off"
 end
 
-every 2.minutes, :roles => [:redis] do
+every 2.minutes do
   command "ls -ltr /"
 end
 
