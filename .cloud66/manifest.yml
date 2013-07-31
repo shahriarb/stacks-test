@@ -1,0 +1,15 @@
+production:
+    rails: 
+        server: 
+            unique_name: frontend
+            type: BYOC
+            vendor: aws
+            region: us-east-1
+            size: t1.micro
+    application:
+        server: 
+            unique_name: processes
+            type: BYOC
+            vendor: aws
+            region: us-east-1
+            size: t1.micro
