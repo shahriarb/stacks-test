@@ -12,4 +12,4 @@ development:
 production:
     memcached: 
         configuration:
-             memory: 200
+             memory: 220
