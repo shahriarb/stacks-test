@@ -1,0 +1,4 @@
+This should be blank: "<%=ENV['TEST_FILE']%>" so there!
+This should not be blank: "<%=ENV['RAILS_ENV'] %>" so there!
+This should also not be blank: "<%= ENV['RAILS_ENV']%>" so there!
+This should be dollar var: "$RAILS_ENV" so there!
