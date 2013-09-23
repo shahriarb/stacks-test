@@ -11,5 +11,4 @@ production:
             passenger_process_memory: 15
             perfect_forward_secrecy: true
             passenger_version: 4.0.18
-            nginx_cors:
-                location: /
+            nginx_cors: true
