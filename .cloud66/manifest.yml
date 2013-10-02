@@ -8,8 +8,10 @@ development:
              errorfile_502: /etc/haproxy/errors/502.http 
              errorfile_503: /etc/haproxy/errors/503.http 
              errorfile_504: /etc/haproxy/errors/504.http
-             development:
 production:
+    rails:
+        configuration:
+            perfect_forward_secrecy: true
     memcached: 
         configuration:
              memory: 220
