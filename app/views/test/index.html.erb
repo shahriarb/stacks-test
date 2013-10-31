@@ -1,3 +1,9 @@
-Branch: <%= ENV['STACK_GIT_BRANCH'] %><br/>
-<br/>
-Hostname: <%= @hostname %>
+<span style='font-family:Arial, Helvetica, sans-serif'>
+BRANCH: <i><%=ENV['STACK_GIT_BRANCH'] %></i><br/>
+Here are the environment varables: 
+<p>
+<% ENV.keys.sort.each do |key| %>
+<b><%=key%></b>: '<%= ENV[key] %>'</br>
+<% end %>
+</p>
+</span>
