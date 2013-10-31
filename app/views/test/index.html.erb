@@ -1,6 +1,9 @@
+<span style='font-family:Arial, Helvetica, sans-serif'>
+BRANCH: <%=ENV['STACK_GIT_BRANCH'] %><br/>
 Here are the environment varables: 
 <p>
 <% ENV.keys.sort.each do |key| %>
 <b><%=key%></b>: '<%= ENV[key] %>'</br>
 <% end %>
 </p>
+</span>
