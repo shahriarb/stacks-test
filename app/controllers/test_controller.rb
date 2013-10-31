@@ -1,6 +1,9 @@
+require 'socket'
+
 class TestController < ApplicationController
 
-	def index		
+	def index
+		@hostname = Socket.gethostname
 	end
 
 end
