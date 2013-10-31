@@ -1,5 +1,5 @@
 Here are the environment varables: 
 
-<% @values.each do |v| %>
-	<p><%= v %></p>
+<% ENV.keys.sort.each do |key| %>
+	<p><%=key%> = '<%= ENV[key] %>'</p>
 <% end %>
