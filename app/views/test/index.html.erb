@@ -1,9 +1,6 @@
-Branch: <%= ENV['STACK_GIT_BRANCH'] %><br/>
-<br/>
-<%= ENV['EXAMPLE'] %>
-
-Hostname = <%= @hostname %><br/>
-<% if Rails.env.production? %>
-Redis = <%= $redis.get("test_key") %>
+Here are the environment varables: 
+<p>
+<% ENV.keys.sort.each do |key| %>
+<b><%=key%></b>: '<%= ENV[key] %>'</br>
 <% end %>
-
+</p>
