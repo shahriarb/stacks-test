@@ -1,7 +1,10 @@
 source 'http://rubygems.org'
 
+ruby '2.0.0'
+
 gem 'rails', '3.0.3'
 gem 'unicorn'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
