@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 
-ruby '1.9.3'
+ruby '2.0.0'
 
 group :production do 	
 	gem 'memcache-client'
