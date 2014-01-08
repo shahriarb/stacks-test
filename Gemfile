@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 
-ruby '2.0.0'
+ruby '1.9.3'
 
 group :production do 	
 	gem 'memcache-client'
@@ -13,7 +13,7 @@ end
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
